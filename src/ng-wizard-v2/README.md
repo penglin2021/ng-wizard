@@ -1,5 +1,8 @@
-# ng-wizard
-ng-wizard is a stepper / wizard component that you can use in your Angular applications. You can access the sample demo project **[by clicking here](https://ng-wizard.stackblitz.io)**.
+# ng-wizard-v2
+ng-wizard-v2 is a stepper / wizard component that you can use in your Angular applications. You can access the sample demo project **[by clicking here](https://ng-wizard.stackblitz.io)**.
+
+## Contributor
+Varun P <varunp5814@gmail.com>
 
 ## Screenshots
 
@@ -14,13 +17,12 @@ ng-wizard is a stepper / wizard component that you can use in your Angular appli
 ## Dependencies
 + [Bootstrap 4](https://getbootstrap.com/docs/4.3/getting-started/download/)
 
-## Contributor
-Varun P <varunp5814@gmail.com>
+
 
 ## Getting started
-Install **ng-wizard** through npm:
+Install **ng-wizard-v2** through npm:
 ```
-$ npm install --save ng-wizard
+$ npm install --save ng-wizard-v2
 ```
 
 Include **bootstrap** CSS file (skip if already imported):
@@ -28,23 +30,23 @@ Include **bootstrap** CSS file (skip if already imported):
 @import '~bootstrap/dist/css/bootstrap.min.css';
 ```
 
-Include **ng-wizard** CSS files:
+Include **ng-wizard-v2** CSS files:
 ```css
 /* Mandatory */
-@import '~ng-wizard/themes/ng_wizard.min.css';
+@import '~ng-wizard-v2/themes/ng_wizard.min.css';
 
 /* Optional */
 /* If a theme other than default is used, the css file for that theme is required. */
-@import '~ng-wizard/themes/ng_wizard_theme_arrows.min.css';
-@import '~ng-wizard/themes/ng_wizard_theme_circles.min.css';
-@import '~ng-wizard/themes/ng_wizard_theme_dots.min.css';
+@import '~ng-wizard-v2/themes/ng_wizard_theme_arrows.min.css';
+@import '~ng-wizard-v2/themes/ng_wizard_theme_circles.min.css';
+@import '~ng-wizard-v2/themes/ng_wizard_theme_dots.min.css';
 ```
 
-Import the **ng-wizard module** into your apps module:
+Import the **ng-wizard-v2 module** into your apps module:
 ```typescript
 import { NgModule } from '@angular/core';
 
-import { NgWizardModule, NgWizardConfig, THEME } from 'ng-wizard';
+import { NgWizardModule, NgWizardConfig, THEME } from 'ng-wizard-v2';
 
 const ngWizardConfig: NgWizardConfig = {
   theme: THEME.default
@@ -101,7 +103,7 @@ If you want to override **ng-wizard** default configuration defined in **apps mo
 ```typescript
 import { Component, OnInit } from '@angular/core';
 import { of } from 'rxjs';
-import { NgWizardConfig, NgWizardService, StepChangedArgs, StepValidationArgs, STEP_STATE, THEME } from 'ng-wizard';
+import { NgWizardConfig, NgWizardService, StepChangedArgs, StepValidationArgs, STEP_STATE, THEME } from 'ng-wizard-v2';
 
 @Component({
   templateUrl: 'app.component.html'
