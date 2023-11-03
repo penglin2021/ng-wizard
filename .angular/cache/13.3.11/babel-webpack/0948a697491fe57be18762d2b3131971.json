@@ -1,1 +1,0 @@
-{"ast":null,"code":"import { InjectionToken } from '@angular/core';\nexport const NG_WIZARD_CONFIG_TOKEN = new InjectionToken('ngWizardCustom.config');","map":null,"metadata":{},"sourceType":"module"}
