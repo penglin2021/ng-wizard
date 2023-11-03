@@ -20,11 +20,11 @@
       "dom"
     ],
     "paths": {
-      "ng-wizard": [
-        "dist/ng-wizard"
+      "ng-wizard-v2": [
+        "dist/ng-wizard-v2"
       ],
-      "ng-wizard/*": [
-        "dist/ng-wizard/*"
+      "ng-wizard-v2/*": [
+        "dist/ng-wizard-v2/*"
       ]
     }
   }

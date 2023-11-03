@@ -5,7 +5,7 @@ import {
   StepChangedArgs,
   STEP_STATE,
   THEME
-} from '../../../ng-wizard/public-api'; // 'ng-wizard'
+} from '../../../ng-wizard-v2/public-api'; // 'ng-wizard'
 
 import { DemoWizardService, StepDefinition } from './services/demo-wizard.service';
 

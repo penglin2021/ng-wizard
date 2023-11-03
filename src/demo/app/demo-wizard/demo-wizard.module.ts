@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { RouterModule, Routes } from '@angular/router';
 
-import { NgWizardModule, NgWizardConfig, THEME } from '../../../ng-wizard/public-api'; // BrowserModule no longer breaking here
+import { NgWizardModule, NgWizardConfig, THEME } from '../../../ng-wizard-v2/public-api'; // BrowserModule no longer breaking here
 
 import { DemoWizardComponent } from './demo-wizard.component';
 import { StepOneComponent } from './steps/step-1/step-one.component';
