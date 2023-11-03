@@ -14,6 +14,8 @@ ng-wizard is a stepper / wizard component that you can use in your Angular appli
 ## Dependencies
 + [Bootstrap 4](https://getbootstrap.com/docs/4.3/getting-started/download/)
 
+## Contributor
+Varun P <varunp5814@gmail.com>
 
 ## Getting started
 Install **ng-wizard** through npm:
