@@ -135,7 +135,7 @@
         }
       }
     },
-    "ng-wizard": {
+    "ng-wizard-v2": {
       "root": "src/ng-wizard",
       "sourceRoot": "src/ng-wizard",
       "projectType": "library",
