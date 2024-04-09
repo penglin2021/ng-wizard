@@ -6,12 +6,12 @@
     "outDir": "./dist/out-tsc",
     "sourceMap": true,
     "declaration": false,
-    "module": "esnext",
+    "module": "es2020",
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "importHelpers": true,
-    "target": "es2015",
+    "target": "ES2022",
     "typeRoots": [
       "node_modules/@types"
     ],
@@ -20,12 +20,13 @@
       "dom"
     ],
     "paths": {
-      "ng-wizard": [
-        "dist/ng-wizard"
+      "ng-wizard-v2": [
+        "dist/ng-wizard-v2"
       ],
-      "ng-wizard/*": [
-        "dist/ng-wizard/*"
+      "ng-wizard-v2/*": [
+        "dist/ng-wizard-v2/*"
       ]
-    }
+    },
+    "useDefineForClassFields": false
   }
 }

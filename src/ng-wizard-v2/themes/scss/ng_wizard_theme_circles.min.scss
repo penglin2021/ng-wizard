@@ -1,0 +1,131 @@
+﻿$color_1: #bbb;
+$color_2: #ccc;
+$color_3: #4285f4;
+$color_4: #fff;
+$color_5: #5bc0de;
+$color_6: #5cb85c;
+$color_7: #d9534f;
+$color_8: #eee;
+$background-color_1: #fff;
+$background-color_2: #f5f5f5;
+$border-color_1: #5bc0de;
+$border-color_2: #5cb85c;
+$border-color_3: #d9534f;
+$border-top-color_1: #ddd;
+$border-bottom-color_1: #ddd;
+
+.ng-wizard-theme-circles {
+	.ng-wizard-container {
+		min-height: 300px;
+	}
+	.step-content {
+		padding: 10px 0;
+		background-color: $background-color_1;
+		text-align: left;
+	}
+	.ng-wizard-toolbar {
+		background: #fff;
+		padding-left: 10px;
+		padding-right: 10px;
+		margin-bottom: 0 !important;
+	}
+	.ng-wizard-toolbar-bottom {
+		border-top-color: $border-top-color_1 !important;
+		border-bottom-color: $border-bottom-color_1 !important;
+	}
+	>ul.step-anchor {
+		position: relative;
+		background: #fff;
+		border: none;
+		list-style: none;
+		margin-bottom: 40px;
+		&:before {
+			content: " ";
+			position: absolute;
+			top: 50%;
+			bottom: 0;
+			width: 100%;
+			height: 5px;
+			background-color: $background-color_2;
+			border-radius: 3px;
+			z-index: 0;
+		}
+		>li {
+			border: none;
+			margin-left: 40px;
+			z-index: 98;
+			>a {
+				border: 2px solid #f5f5f5;
+				background: #f5f5f5;
+				width: 75px;
+				height: 75px;
+				text-align: center;
+				padding: 25px 0;
+				border-radius: 50%;
+				-webkit-box-shadow: inset 0 0 0 3px #fff !important;
+				box-shadow: inset 0 0 0 3px #fff !important;
+				text-decoration: none;
+				outline-style: none;
+				z-index: 99;
+				color: $color_1;
+				background: #f5f5f5;
+				line-height: 1;
+				&:hover {
+					color: $color_1;
+					background: #f5f5f5;
+					border-width: 2px;
+				}
+				>small {
+					position: relative;
+					bottom: -40px;
+					color: $color_2;
+				}
+			}
+		}
+		>li.clickable {
+			>a {
+				&:hover {
+					color: $color_3 !important;
+				}
+			}
+		}
+		>li.active {
+			>a {
+				border-color: $border-color_1;
+				color: $color_4;
+				background: #5bc0de;
+				>small {
+					color: $color_5;
+				}
+			}
+		}
+		>li.done {
+			>a {
+				border-color: $border-color_2;
+				color: $color_4;
+				background: #5cb85c;
+				>small {
+					color: $color_6;
+				}
+			}
+		}
+		>li.danger {
+			>a {
+				border-color: $border-color_3;
+				color: $color_7;
+				background: #fff;
+				>small {
+					color: $color_7;
+				}
+			}
+		}
+		>li.disabled {
+			>a {
+				color: $color_8 !important;
+				&:hover {
+					color: $color_8 !important;
+				}
+			}
+		}
+	}
+}

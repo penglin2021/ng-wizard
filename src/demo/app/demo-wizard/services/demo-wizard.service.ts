@@ -1,6 +1,6 @@
 import { Injectable, Type } from '@angular/core';
 import { isObservable, Observable } from 'rxjs';
-import { NgWizardConfig, StepValidationArgs, STEP_STATE, THEME } from '../../../../ng-wizard/public-api';
+import { NgWizardConfig, StepValidationArgs, STEP_STATE, THEME } from '../../../../ng-wizard-v2/public-api';
 
 import { StepOneComponent } from '../steps/step-1/step-one.component';
 import { StepTwoComponent } from '../steps/step-2/step-two.component';
